@@ -1,0 +1,79 @@
+.InsertNhanVien{
+    width: 77%;
+        float: right;
+       height: 640px;
+        background-color:#e9ebee;
+        padding-bottom: 15px;
+        
+}
+.InssertNVC{
+    padding-top: 35px;
+}
+.nhacungcap{
+    width: 48%;
+    margin: 0px auto;
+    padding-top: 30px;
+}
+.insertncc{
+    display: flex;
+}
+.insertncc p{
+    width: 50%;
+    margin: 10px 30px 10px 0px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.insertncc input{
+    width: 100%;
+    border: 1px solid rgb(190, 190, 190);
+}
+.insertncc1{
+    display: flex;
+}
+.insertncc1 input{
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+    margin-right: 15px;
+    padding: 10px;
+    float: right;
+    font-size: 16px;
+}
+.insertncc2{
+    width: 50%;
+    margin: 0px auto;
+    padding-top: 20px;
+    padding-bottom: 140px;
+}
+@media only all and (max-width:1024px) and (min-width:768px){
+    .InsertNhanVien {
+        width: 75%;
+    }
+    .nhacungcap {
+        width: 75%;
+    }
+}
+@media only all and (max-width:768px) and (min-width:675px){
+    .InsertNhanVien {
+        width: 100%;
+    }
+    .nhacungcap {
+        width: 65%;
+    }
+}
+@media only all and (max-width:675px) and (min-width:480px){
+    .InsertNhanVien {
+        width: 100%;
+    }
+    .nhacungcap {
+        width: 90%;
+    }
+}
+@media only all and (max-width:480px) and (min-width:320px){
+    .InsertNhanVien {
+        width: 100%;
+    }
+    .nhacungcap {
+        width: 90%;
+    }
+}

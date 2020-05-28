@@ -1,0 +1,191 @@
+.chontheoy{
+    margin-top: 100px;
+}
+.wapperTimSP{
+    background-color: #e9ebee;
+    width: 100%;
+}
+.BlogTim{
+    box-sizing: border-box;
+    padding: 10px 50px 0px 50px;
+    background-color: #e9ebee;
+}
+.gridContainer11{
+    padding: 0px 50px 0px 50px;
+    font-family: sans-serif; 
+}
+.ContentTimSP{
+    padding: 100px 20% 0px 20%;
+    text-align: center;
+    margin: 0px auto;
+}
+.ContentChildTimSP{
+    padding: 20px 7%;
+    text-align: left;
+    margin: 0px auto;
+}
+.coloer{
+    font-style: italic;
+}
+.ContentChildTimSP ul{
+    font-size: 18px;
+}
+.Tongketqua{
+    padding: 0px 50px 0px 50px;
+}
+@media only all and (max-width:1280px) and (min-width:1024px){
+    
+}
+@media only all and (max-width:1024px) and (min-width:768px){
+   .gridContainer11 h1{
+        font-size: 24px;
+        margin: 24px;
+    }
+    .Tongketqua{
+        padding: 0px ;
+       
+    }
+    .ContentTimSP {
+        padding: 60px 20% 0px 20%;
+        text-align: center;
+        margin: 0px auto;
+    }
+    .ContentChildTimSP {
+        padding: 20px 0%;
+        text-align: left;
+        margin: 0px auto;
+    }
+    .ContentChildTimSP h2{
+        font-size: 20px;
+    }
+    .ContentChildTimSP ul{
+        font-size: 16px;
+    }
+}
+@media only all and (max-width:768px) and (min-width:675px){
+    
+    .gridContainer11 h1{
+        font-size: 24px;
+        margin: 24px;
+    }
+    .ContentTimSP {
+        padding: 60px 16% 0px 16%;
+        text-align: center;
+        margin: 0px auto;
+    }
+    .Tongketqua{
+        padding: 0px ;
+    }
+    .ContentChildTimSP {
+        padding: 20px 0%;
+        text-align: left;
+        margin: 0px auto;
+    }
+    .ContentChildTimSP h2{
+        font-size: 20px;
+    }
+    .ContentChildTimSP ul{
+        font-size: 16px;
+    }
+}
+
+@media only all and (max-width:675px) and (min-width:480px){
+    .gridContainer11 h1{
+        font-size: 20px;
+        margin: 20px;
+    }
+    .ContentTimSP {
+        padding: 60px 1% 0px 1%;
+        text-align: center;
+        margin: 0px auto;
+    }
+    .Tongketqua{
+        padding: 0px ;
+        font-size: 14px;
+    }
+    .ContentChildTimSP {
+        padding: 20px 0%;
+        text-align: left;
+        margin: 0px auto;
+    }
+    .ContentChildTimSP h2{
+        font-size: 16px;
+    }
+    .ContentChildTimSP ul{
+        font-size: 14px;
+    }
+    .gridContainer11{
+        padding: 0px 10px 0px 10px;
+        font-family: sans-serif; 
+    }
+    .ContentTimSP img{
+        width: 300px;
+    }
+}
+@media only all and (max-width:480px) and (min-width:320px){
+    .gridContainer11 h1{
+        font-size: 20px;
+        margin: 20px;
+    }
+    .ContentTimSP {
+        padding: 60px 1% 0px 1%;
+        text-align: center;
+        margin: 0px auto;
+    }
+    .ContentChildTimSP {
+        padding: 20px 0%;
+        text-align: left;
+        margin: 0px auto;
+    }
+    .ContentChildTimSP h2{
+        font-size: 16px;
+    }
+    .ContentChildTimSP ul{
+        font-size: 14px;
+    }
+    .gridContainer11{
+        padding: 0px 10px 0px 10px;
+        font-family: sans-serif; 
+    }
+    .ContentTimSP img{
+        width: 300px;
+    }
+    .Tongketqua{
+        padding: 0px ;
+        font-size: 12px;
+    }
+    
+}
+@media only all and (max-width:320px){
+    .gridContainer11 h1{
+        font-size: 20px;
+        margin: 20px;
+    }
+    .Tongketqua{
+        padding: 0px ;
+        font-size: 12px;
+    }
+    .ContentTimSP {
+        padding: 60px 1% 0px 1%;
+        text-align: center;
+        margin: 0px auto;
+    }
+    .ContentChildTimSP {
+        padding: 20px 0%;
+        text-align: left;
+        margin: 0px auto;
+    }
+    .ContentChildTimSP h2{
+        font-size: 16px;
+    }
+    .ContentChildTimSP ul{
+        font-size: 14px;
+    }
+    .gridContainer11{
+        padding: 0px 10px 0px 10px;
+        font-family: sans-serif; 
+    }
+    .ContentTimSP img{
+        width: 300px;
+    }
+}

@@ -1,0 +1,124 @@
+.khachhang{
+    width: 77%;
+        float: right;
+        min-height: 640px;
+        background-color:#e9ebee;
+        padding-bottom: 15px;  
+}
+.wapperkhang{
+    width: 96%;
+   margin: 0px auto;padding-bottom: 100px;
+   
+}
+.xemchitiet{
+    width: 10%;
+    padding: 10px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+.xemchitiet:hover{
+    color: red;
+}
+.quequan1 {
+    padding: 10px;
+    width: 20%;
+    border: 1px solid gray;
+}
+.KHlist h1{
+    margin-left: 20px;
+}
+.makh1{
+    width: 15%;
+    border: 1px solid gray;
+    padding: 10px;
+}
+.KHlist{
+    padding-top: 35px;
+}
+.danhsachkh{
+    display: flex;
+    text-align: center;
+}
+.khachhangds{
+    display: flex;
+    text-align: center;
+}
+.makh{
+    width: 5%;
+    padding: 10px;
+    border: 1px solid gray;
+}
+.tenkh{
+    padding: 10px;
+    width: 20%;border: 1px solid gray;
+}
+.quequan{
+    padding: 10px;
+    width: 30%;border: 1px solid gray;
+}
+#xoakh:hover{
+    text-decoration: underline;
+    color: red;
+    cursor: pointer;
+}
+@media only all and (max-width:1280px) and (min-width:1024px){
+
+}
+@media only all and (max-width:1024px) and (min-width:868px){
+    .khachhang {
+        width: 75%;
+    }
+    .danhsachkh {
+
+        font-size: 14px;
+    }
+}
+@media only all and (max-width:868px) and (min-width:768px){
+    .khachhang {
+        width: 75%;
+    }
+    .danhsachkh {
+        font-size: 12px;
+    }
+    .khachhangds {
+        font-size: 12px;
+    }
+}
+@media only all and (max-width:768px) and (min-width:675px){
+    .khachhang {
+        width: 100%;
+    }
+}
+@media only all and (max-width:675px) and (min-width:570px){
+    .khachhang {
+        width: 100%;
+    }
+    .danhsachkh {
+        font-size: 13px;
+    }
+    .khachhangds {
+        font-size: 13px;
+    }
+}
+@media only all and (max-width:570px) and (min-width:480px){
+    .khachhang {
+        width: 100%;
+    }
+    .danhsachkh {
+        font-size: 9px;
+    }
+    .khachhangds {
+        font-size: 11px;
+    }
+}
+@media only all and (max-width:480px) and (min-width:320px){
+    .khachhang {
+        width: 100%;
+    }
+    .danhsachkh {
+        font-size: 9px;
+    }
+    .khachhangds {
+        font-size: 10px;
+    }
+}

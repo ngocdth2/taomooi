@@ -1,0 +1,227 @@
+.choosemade1{
+    background-color: #e9ebee;
+    padding: 0px 50px 0px 50px;
+}
+.WapperPS02{
+    background-color: #e9ebee;
+}
+.headerps02{
+    height: 66px;
+    padding: 0px 20px 20px 0px;
+}
+.listPs02{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    box-sizing: border-box;
+    padding: 20px 50px;
+    width: 100%;
+
+}
+.Grip-Item img{
+    
+    padding-top: 10px;
+}
+.Grip-Item img:hover{
+    padding-bottom: 10px;
+    padding-top: 0px;
+}
+@media only all and (max-width:1280px) and (min-width:1024px){
+    .wapperlisst{
+        width: 100%;
+    }
+    .choosemade1 {
+     
+        padding: 0px 40px 0px 40px;
+    }
+    .headerps02 {
+        padding: 0px 20px 0px 0px;
+        height: 56px;
+    }
+    .wapperanh {
+        display: flex;
+        padding: 10px 40px;
+    }
+    #anh2 {
+       
+        width: 40%;
+    }
+    #anh1{
+        width: 60%;
+    }
+    .listPs02 {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        
+        padding: 5px 40px 15px 40px;
+       
+    }
+    .Item1 p {
+        margin: 5px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .Grip-Item img {
+        height: 220px;
+        
+    }
+}
+@media only all and (max-width:1024px) and (min-width:768px){
+    .wapperlisst{
+        width: 100%;
+    }
+    .choosemade1 {
+     
+        padding: 0px 0px 0px 0px;
+    }
+    .headerps02 {
+        padding: 0px 20px 0px 0px;
+        height: 56px;
+    }
+    .wapperanh {
+        display: flex;
+        padding: 10px 5px;
+    }
+    #anh2 {
+       
+        width: 40%;
+    }
+    #anh1{
+        width: 60%;
+    }
+    .listPs02 {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        
+        padding: 5px 5px 15px 5px;
+       
+    }
+    .Item1 p {
+        margin: 5px;
+        font-weight: bold;
+        font-size: 17px;
+    }
+    .Grip-Item img {
+        height: 185px;
+        
+    }
+}
+@media only all and (max-width:768px) and (min-width:675px){
+    .wapperlisst{
+        width: 100%;
+    }
+    .choosemade1 {
+     
+        padding: 0px 0px 0px 0px;
+    }
+    .headerps02 {
+        padding: 0px 20px 0px 0px;
+        height: 56px;
+    }
+    .wapperanh {
+        display: flex;
+        padding: 10px 5px;
+    }
+    #anh2 {
+       
+        width: 40%;
+    }
+    #anh1{
+        width: 60%;
+    }
+    .listPs02 {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        
+        padding: 5px 5px 15px 5px;
+       
+    }
+    .Item1 p {
+        margin: 5px;
+        font-weight: bold;
+        font-size: 17px;
+    }
+    .Grip-Item img {
+        height: 170px;
+        
+    }
+}
+@media only all and (max-width:675px) and (min-width:480px){
+    .wapperlisst{
+        width: 100%;
+    }
+    .choosemade1 {
+     
+        padding: 0px 0px 0px 0px;
+    }
+    .headerps02 {
+        padding: 0px 20px 0px 0px;
+        height: 56px;
+    }
+    .wapperanh {
+        display: flex;
+        padding: 10px 5px;
+    }
+    #anh2 {
+       
+        width: 40%;
+    }
+    #anh1{
+        width: 60%;
+    }
+    .listPs02 {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        
+        padding: 5px 5px 15px 5px;
+       
+    }
+    .Item1 p {
+        margin: 5px;
+        font-weight: bold;
+        font-size: 13px;
+    }
+    .Grip-Item img {
+        height: 145px;
+        
+    }
+}
+@media only all and (max-width:480px){
+    .wapperlisst{
+        width: 100%;
+    }
+    .choosemade1{
+     
+        padding: 0px 0px 0px 0px;
+    }
+    .headerps02 {
+        padding: 0px ;
+        height: 56px;
+    }
+    .wapperanh {
+        display: flex;
+        padding: 10px 5px;
+    }
+    #anh2 {
+       
+        width: 40%;
+    }
+    #anh1{
+        width: 60%;
+    }
+    .listPs02 {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        
+        padding: 5px 5px 15px 5px;
+       
+    }
+    .Item1 p {
+        margin: 5px;
+        font-weight: bold;
+        font-size: 11px;
+    }
+    .Grip-Item img {
+        max-height: 128px;
+        
+    }
+}

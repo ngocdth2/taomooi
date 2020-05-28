@@ -1,0 +1,256 @@
+.header1{
+    cursor: pointer;
+    
+    text-align: right;
+    padding: 30px 100px;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+#iconAccount{
+    color: black;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+.wappermenu a:hover{
+    text-decoration: none;
+}
+
+.anhimg{
+    width: 90%;
+   
+}
+.imganh{
+     padding:10%  5%;
+     text-align: center;
+}
+.menu{
+    width: 23%;
+    background-color: rgb(1, 18, 48);
+    float: left;
+position: fixed;
+    overflow: auto;
+    height: 655px;
+    
+}
+.dropdown{ 
+    position: relative;padding: 10px 30px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(1, 18, 48);
+}
+.dropdown:hover{
+    cursor: pointer;
+    background-color: rgb(152, 179, 228);
+   
+}
+.dropdown:hover a{
+   
+    text-decoration: none;
+}
+.dropdowncon:hover a{
+   text-decoration: none;
+
+}
+.dropdowncon p{
+    margin: 0px;
+}
+.dropdowncon a{
+    text-decoration: none;
+    font-size: 18px;
+}
+.conhover{
+    padding: 10px 60px;
+}
+.conhover:hover{
+    background-color: rgb(152, 179, 228);
+}
+#Onclicksignout p{
+    position: fixed;
+    margin: 0px;
+    left: 1235px;
+}
+.arrowdropdown{
+    float: right;
+    position: absolute;
+    top: 0px;
+    left: 250px;
+}
+#arrdropdown{
+    font-size: 35px;
+}
+#arrdropup{
+    font-size: 35px;
+    display: none;
+}
+#dropcon1{
+    display: none;
+}
+#dropcon2{
+    display: none;
+}
+#arrdropdown1{
+    font-size: 35px;
+}
+#arrdropup1{
+    font-size: 35px;
+    display: none;
+}
+.wappermenu{
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+}
+.waperQC{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+}
+
+@media only all and (max-width:1280px) and (min-width:1024px){
+    #idwapper{
+        width: 100%;
+    }
+    .dropdown {
+        padding: 8px 15px;
+        font-size: 18px;
+    }
+    .img{
+        width:50%;
+    }
+    .arrowdropdown{
+        left: 195px;
+    }
+    .menu{
+        display: block;
+    }
+   
+}
+
+@media only all and (max-width:1024px) and (min-width:768px){
+    #idwapper{
+        width: 100%;
+    }
+    .dropdown {
+        padding: 10px 5px;
+        font-size: 16px;
+    }
+    .header-left input{
+        width: 200px;  
+    }
+    .arrowdropdown {
+        left: 150px;
+    }
+    .header-left{
+        padding: 20px 20px 15px 100px;
+    }
+    #arrdropdown {
+        font-size: 28px;
+    }
+    #arrdropdown1 {
+        font-size: 28px;
+    }
+    .conhover {
+        padding: 6px 20px;
+    }
+    .menu{
+        width: 25%;
+        display: block;
+    }
+    
+
+}
+@media only all and (max-width:768px) and (min-width:675px){
+    #idwapper{
+        width: 100%;
+    }
+    .menu{
+        display: none;
+            width: 30%;
+    }
+    .dropdown {
+        padding: 10px 5px;
+        font-size: 16px;
+    }
+    .conhover {
+        padding: 6px 20px;
+    }
+    .arrowdropdown {
+        left: 150px;
+    }
+    nav{
+        display: none;
+    }
+    .header-left input{
+        width: 150px;  
+    }
+    .header-left{
+        padding: 20px 20px 15px 50px;
+    }
+    
+   
+}
+
+@media only all and (max-width:675px) and (min-width:480px){
+  
+    #idwapper{
+        width: 100%;
+    }
+    
+    .menu{
+        display: none;
+            width: 32%;
+    }
+    .dropdown {
+        padding: 10px 5px;
+        font-size: 14px;
+    }
+    .conhover {
+        padding: 6px 10px;
+    }
+    .arrowdropdown {
+        left: 130px;
+    }
+    .dropdowncon a {font-size: 14px};
+    nav{
+        display: none;
+    }
+    .header-left input{
+        width: 150px;  
+    }
+    .header-left{
+        padding: 20px 20px 15px 50px;
+    }
+    nav{
+        display: none;
+    }
+    .header-left input{
+        width: 100px;  
+    }
+    .header-left{
+        padding: 20px 20px 15px 0px;
+    }
+    #arrdropdown {
+        font-size: 20px;
+    }
+    #arrdropdown1 {
+        font-size: 20px;
+    }
+    
+}
+@media only all and (max-width:480px){
+    #idwapper{
+        width: 100%;
+    }
+    .menu{
+        display: none;
+    }
+    nav{
+        display: none;
+    }
+   
+    
+}

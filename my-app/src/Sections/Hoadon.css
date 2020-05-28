@@ -1,0 +1,314 @@
+
+.hoadon{
+    padding-top: 100px;
+    
+}
+.backgroundhoadon{
+    width: 60%;
+    margin: 0px auto;
+    background-color: white;
+    box-shadow: 0px 5px 8px 3px #888888;
+}
+.backgroundhoadon h1{
+    margin: 0px;
+    padding: 25px;
+    text-align: center;
+    color: red;
+}
+.dieuchinh{
+    display: flex;
+    width: 120px;
+    border: 1px solid;
+    text-align: center;
+    float: right;
+}
+.dieuchinh input{
+    text-align: center;
+    width: 50px;
+    border-radius: 0px;
+}
+.tang{
+    border-left: 1px solid;
+   width: 35px;
+}
+.giam{
+    border-right: 1px solid black;
+    width: 35px;
+}
+.hoadon1{
+    border-bottom: 1px solid rgb(211, 209, 209);
+    padding:25px 30px 0px 25px;
+    
+}
+.thongtinhd{
+    padding-bottom:15px;
+    border-bottom: 1px solid rgb(211, 209, 209);
+  display: flex;
+}
+.nameanh{
+    width: 70%;
+    display: flex;
+}
+.nameanh img{
+    width: 150px;
+}
+h2,h3{
+    margin: 10px;
+}
+.giasl{
+    text-align: right;
+    width: 30%;
+}
+.tongtien{
+    display: flex;
+}
+.labeltongtien{
+    width: 70%;
+}
+.numbertongtien{
+    width: 30%;
+    text-align: right;
+}
+.tongtien p{
+    color: red;
+    font-size: 24px;
+    margin: 10px;font-weight: bold;
+}
+.hoadon2{
+    margin:15px 30px 0px 30px;
+    background-color:#e9ebee;
+    
+}
+#addpadding{
+    padding: 20px 40px;
+}
+.hoadon2 p{
+    font-size: 20px;
+   
+}
+.gtanh{
+    padding-right: 20px;
+}
+.hoadon2 p input{
+    border: 1px solid gray;
+    margin: 3px;
+}
+.hovaten{
+    padding-right: 20px;
+}
+.hoten{
+    width: 40%;
+    padding: 10px;
+    font-size: 18px;
+}
+.hoten2{
+    width: 80%;
+    padding: 10px;
+    font-size: 18px;
+}
+select{
+    width: 45%;
+    padding: 10px;
+  margin-bottom: 50px;
+    font-size: 18px;
+}
+.dathangvang{
+    text-align: center;
+    background-color: rgb(192, 126, 4);
+    margin: 20px;
+    border: 1px solid rgb(192, 126, 4);
+    width: 50%;
+}
+.dathangdiv{
+    text-align: center;
+    
+}
+.loiket{
+    padding: 30px;
+    text-align: center;
+    color: #7c7b7b;
+    margin: 0px;
+}
+#error{
+    width: 100%;
+    
+}
+#quan_huyenerror{ width: 50%;margin: 0px 0px 10px 0px;float: right;}
+#tinh_tperror{
+    width: 50%;
+    float: left;
+    margin: 0px 0px 10px 0px;
+}
+#phuong_xaerror{
+    width: 50%;
+    float: left;
+    margin: 0px 0px 10px 0px;
+}
+#sonhaerror{
+    width: 50%;margin: 0px 0px 10px 0px;float: right;
+}
+#hotenerror{
+    width: 50%;
+    float: left;
+    margin: 0px 0px 10px 0px;
+}
+#sodterroe{
+    width: 50%;margin: 0px 0px 10px 0px;float: right;
+}
+
+@media only all and (max-width:1280px) and (min-width:1024px){
+    .backgroundhoadon{
+        width: 80%;
+    }
+    .wapperHoaDon{
+        width: 100%;
+    }
+    
+    
+}
+
+@media only all and (max-width:1024px) and (min-width:768px){
+    .backgroundhoadon{
+        width: 80%;
+    }
+    .wapperHoaDon{
+        width: 100%;
+    }
+    
+
+}
+@media only all and (max-width:768px) and (min-width:675px){
+    .backgroundhoadon{
+        width: 80%;
+    }
+    .wapperHoaDon{
+        width: 100%;
+    }
+    
+}
+
+@media only all and (max-width:675px) and (min-width:480px){
+    
+    .backgroundhoadon{
+        width: 80%;
+    }
+    .wapperHoaDon{
+        width: 100%;
+    }
+    .nameanh img {
+        width: 77px;
+    }
+    .tang,.giam{
+        
+        width: 15px;
+    }
+    .dieuchinh input {
+       width: 28px;
+    padding: 0px;
+       
+    }
+    .tongtien p {
+        font-size: 13px;
+        margin: 7px;
+    }
+    .dieuchinh {
+         width: 54px;
+    }
+    #giam {
+        font-size: 12px;
+    }
+    .hoadon2 {
+        margin: 15px 10px 0px 10px; 
+    }
+    h2, h3 {
+        margin: 2px;
+        font-size: 15px;
+    }
+    .hoten2 {
+        width: 82%;
+        padding: 5px;
+        font-size: 13px;
+    }
+    select {
+        width: 45%;
+        padding: 5px;
+        margin-bottom: 50px;
+        font-size: 13px;
+    }
+    .hoten {
+        width: 42%;
+        padding: 5px;
+        font-size: 13px;
+    }
+    .hoadon2 p {
+        font-size: 13px;
+    }
+    #addpadding {
+        padding: 0px 10px;
+    }
+    
+    
+}
+@media only all and (max-width:480px){
+    .backgroundhoadon{
+        width: 80%;
+    }
+    .wapperHoaDon{
+       width: 100%;
+    }
+    .backgroundhoadon h1 {
+        padding: 13px;
+        font-size: 25px;
+    }
+    .nameanh img {
+        width: 70px;
+    }
+    .tang,.giam{
+        
+        width: 15px;
+    }
+    .dieuchinh input {
+       width: 28px;
+    padding: 0px;
+       
+    }
+    .tongtien p {
+        font-size: 11px;
+        margin: 7px;
+    }
+    .dieuchinh {
+         width: 54px;
+    }
+    #giam {
+        font-size: 12px;
+    }
+    .hoadon2 {
+        margin: 15px 10px 0px 10px; 
+    }
+    h2, h3 {
+        margin: 2px;
+        font-size: 12px;
+    }
+    .hoten2 {
+        width: 82%;
+        padding: 5px;
+        font-size: 11px;
+    }
+    select {
+        width: 45%;
+        padding: 5px;
+        margin-bottom: 50px;
+        font-size: 11px;
+    }
+    .hoten {
+        width: 42%;
+        padding: 5px;
+        font-size: 11px;
+    }
+    .hoadon2 p {
+        font-size: 12px;
+    }
+    #addpadding {
+        padding: 0px 10px;
+    }
+}

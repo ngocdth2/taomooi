@@ -1,0 +1,116 @@
+.UpdateProduct{
+        width: 77%;
+        float: right;
+       
+        background-color:#e9ebee;
+        padding-bottom: 10px;
+      
+        text-align: 18px;
+        font-weight: bold;
+}
+.UpdateProduct h1{
+        padding: 35px 0px 0px 15px;
+}
+.textarrea{
+        height: 100px;
+        width: 200px;
+}
+.Click{
+        width: 10%;margin: 0 auto;
+}
+.savesub{
+     width: 100%;
+     padding: 10px;
+     border: 1px solid #c58104;
+     background: #ca8509;
+     color: white;
+     font-weight: bold;
+     margin: 10px;
+ 
+}
+.UpdateProduct h1{
+        padding: 20px;
+}
+.Inpunt{
+        width: 195px;
+}
+.inputtim{
+        padding: 8px;
+        border: 1px solid gray;
+        margin-right: 10px;
+}
+.inputtim1{
+        padding: 8px;
+        border: 1px solid gray;
+        margin-right: 10px;
+}
+.timmasp{
+        margin: 0px 20px 20px 20px;
+}
+#suasp input{
+        margin: 4px 10px;
+}
+@media only all and (max-width:1280px) and (min-width:1024px){
+
+        .Inpunt {
+            width: 151px;
+        }
+        .textarrea {
+                width: 158px;
+            }
+       
+}
+@media only all and (max-width:1024px) and (min-width:768px){
+        .Inpunt {
+                width: 130px;
+        }
+        .textarrea {
+                width: 134px;
+        }
+        .UpdateProduct {
+                width: 75%;
+        }
+}
+@media only all and (max-width:768px) and (min-width:675px){
+        .Inpunt {
+                width: 130px;
+        }
+        .textarrea {
+                width: 134px;
+        }
+        .UpdateProduct {
+                width:100%;
+        }
+}
+@media only all and (max-width:675px) and (min-width:480px){
+        .Inpunt {
+                width: 130px;
+        }
+        .textarrea {
+                width: 134px;
+        }
+        .UpdateProduct {
+                width:100%;
+        }
+        .inputtim{
+                width: 160px;
+        }
+}
+@media only all and (max-width:480px) and (min-width:320px){
+        .Inpunt {
+                width: 130px;
+        }
+        .textarrea {
+                width: 134px;
+        }
+        .UpdateProduct {
+                width:100%;
+        }
+        .inputtim{
+                width: 120px;
+        }
+        .UpdateProduct h1 {
+                padding: 20px;
+                font-size: 29px;
+        }
+}

@@ -1,0 +1,203 @@
+.NhanVien{
+    width: 77%;
+    float: right;
+   height: 640px;
+    background-color:#e9ebee;
+    padding-bottom: 15px;
+}
+.titlencc{
+    display: flex;
+    padding:0px 5%;
+    text-align: center;
+    margin: 0 auto;
+}
+.NCCli{
+    padding-top: 35px;
+}
+.listNCC{
+    padding-top: 35px;
+}
+.mancc{
+    width: 5%;
+    border: 1px solid gray;
+    padding: 10px;
+}
+.tenncc{
+    width: 20%;
+    border: 1px solid gray;
+    padding: 10px;
+    word-wrap: break-word;
+}
+.diachincc{
+    width: 20%;
+    border: 1px solid gray;
+    padding: 10px;
+}
+.emailncc{
+    width: 20%;
+    border: 1px solid gray;
+    padding: 10px;
+    word-wrap: break-word;
+}
+.xoancc{
+    width: 5%;
+    border: 1px solid gray;
+    padding: 10px;
+}
+.xoancc:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: red;
+}
+#titlencc2{
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+#titlencc3{
+    padding-bottom: 110px;
+}
+
+@media only all and (max-width:1280px) and (min-width:1024px){
+    #titlencc2 {
+        font-size: 16px;
+    }
+}
+@media only all and (max-width:1024px) and (min-width:768px){
+
+    .WapperTT {
+        padding: 10px;
+        font-size: 16px;
+    }
+    #titlencc2 {
+        font-size: 12px;
+    }
+    #titlencc3 {
+        font-size: 12px;
+    }
+    .thongtinsp2 {
+        width: 13%; 
+    }
+    .thongtinsp4 {
+        width: 7%;
+    }
+    .QLSP,.QLNC,.QLKH,.QLNCC,.DT{
+        margin-right: 5px;
+        padding: 12px 15px;
+    }
+    .TB{
+        padding: 12px 15px;
+    }
+    .ContentTT h1{
+        font-size: 29px;
+    }
+    .NhanVien{
+        width: 75%;
+    }
+    
+}
+@media only all and (max-width:768px) and (min-width:675px){
+
+    .Calll{
+        display: block;
+    }
+    .WapperTT {
+        padding: 10px;
+        font-size: 16px;
+    }
+    .NhanVien{
+        width: 100%;
+    }
+    #titlencc3 {
+        font-size: 14px;
+    }
+    #titlencc2 {
+        font-size: 14px;
+    }
+    .QLSP,.QLNC,.QLKH,.QLNCC,.DT{
+        margin-right: 5px;
+        padding: 12px 15px;
+    }
+    .TB{
+        padding: 12px 15px;
+    }
+    .ContentTT h1{
+        font-size: 29px;
+    }
+}
+@media only all and (max-width:675px) and (min-width:480px){
+    .Trangchu{
+        width: 100%;
+    }
+    .NhanVien{
+        width: 100%;
+    }
+    #titlencc3 {
+        font-size: 12px;
+    }
+    #titlencc2 {
+        font-size: 12px;
+    }
+    .Calll{
+        display: block;
+    }
+    .WapperTT {
+        padding: 10px;
+        font-size: 16px;
+    }
+    .thongtinsp2 {
+        width: 13%; 
+    }
+    .thongtinsp4 {
+        width: 7%;
+    }
+    .QLSP,.QLNC,.QLKH,.QLNCC,.DT{
+        margin-right: 5px;
+        padding: 12px 15px;
+    }
+    .TB{
+        padding: 12px 15px;
+    }
+    .ContentTT h1{
+        font-size: 29px;
+    }
+}
+@media only all and (max-width:480px) and (min-width:320px){
+    .Trangchu{
+        width: 100%;
+    }
+    .Calll{
+        display: block;
+      
+    } 
+    .NhanVien{
+        width: 100%;
+    }
+    #titlencc3 {
+        font-size: 10px;
+    }
+    #titlencc2 {
+        font-size: 10px;
+    }
+    .thongtinsp2 {
+        width: 13%; 
+    }
+    .thongtinsp4 {
+        width: 7%;
+    }
+    .WapperTT {
+        padding: 10px;
+        font-size: 16px;
+    }
+   
+    .QLSP,.QLNC,.QLKH,.QLNCC,.DT{
+        margin-right: 5px;
+        padding: 12px 15px;
+    }
+    .TB{
+        padding: 12px 15px;
+    }
+    .ContentTT h1{
+        font-size: 29px;
+    }
+}

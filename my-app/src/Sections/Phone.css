@@ -1,0 +1,488 @@
+.phone{
+    
+    padding: 100px 50px 0px 50px
+}
+.title{
+    width: 98%;
+    padding: 0% 1%;
+    border-bottom: 1px solid rgb(207, 207, 207);
+}
+#hed{ color: black;}
+.title span{
+    font-weight: bold;
+    font-size: 20px;
+    color: blue;
+    cursor: pointer;
+}
+
+.CartButton{
+    display: flex;
+}
+.buttonS{
+    padding: 6px;
+}
+.buttonS h4{
+    margin: 5px;
+    font-size: 13px;
+}
+.title p{
+    margin: 5px;
+}
+.title h1{
+    margin: 5px;
+    font-weight: 500;
+}
+
+.content2{
+    float: left;
+    width: 37%;
+    box-sizing: border-box;
+}
+.content2 img{
+    width: 90%;
+    
+}
+.content2 p{
+    text-align: center;
+    padding-right: 20px;
+}
+.content ,.description{
+     padding: 20px;
+     display: flex;
+}
+.price{
+    width: 30%;
+    
+}
+.price h1{
+    color: red;
+   font-size: 40px;
+    margin: 0px;
+}
+.cup{
+    border-bottom: 1px solid  rgb(207, 207, 207);
+}
+.price p,h3{
+    font-weight: initial;
+    margin: 0px;
+}
+#call{
+    text-align: center;
+}
+.khuyenmai{
+    border: 1px solid  rgb(207, 207, 207);
+    padding: 10px;
+    margin: 15px 0px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 19px;
+}
+.khuyenmai h3{
+    margin: 0px;
+}
+.price button{
+    width: 100%;
+    margin-left: 0px;
+}
+#tragop{
+    background-color: rgb(192, 126, 4);
+    margin-top: 0px;
+    margin-bottom: 30px;
+    border: 1px solid rgb(192, 126, 4);
+}
+.chinhsach{
+    width: 30%;
+    float: right;
+    padding-left: 5%;
+    box-sizing: border-box;
+    
+}
+.chinhsach .chinh{
+    width: 92%;
+    padding: 4%;
+    border: 1px solid  rgb(207, 207, 207);
+    border-radius: 7px;
+}
+.mentor{
+    list-style-type: none;
+    padding: 10px;
+    border-bottom:1px solid  rgb(207, 207, 207); 
+    display: flex;font-size: 18px;
+}
+.mentor img{
+    
+    padding-right: 7px;
+}
+#cuoi{
+    border-bottom:0px;
+}
+.dacdiem{
+    width: 60%;
+    font-size: 16px;
+    padding-right: 8%;
+}
+.dacdiem img{
+    width: 60%;
+}
+.thongso{
+    width: 30%;
+    float: right;
+}
+.thongso1{
+    padding: 15px;
+    display: flex;
+    border-bottom:1px solid  rgb(207, 207, 207); 
+    font-size: 16px;
+}
+.label3{
+    color: gray;
+    width: 45%; 
+}
+.label2{
+    width: 55%;
+}
+
+@media only all and (max-width:1280px) and (min-width:1024px){
+    .WapperPhone{
+        width: 100%;
+    }
+    .content2{
+        width: 30%;
+    }
+    .price{
+        width:35%;
+    }
+    .chinhsach{
+        width:32%;
+    }
+    .price h1{
+        font-size: 30px;
+    }
+    .title{
+        padding-top: 10px;
+    }
+    .price p, h3 {
+        margin: 0px;
+        font-size: 16px;
+    }.mentor{
+        font-size: 18px;
+        padding: 5px;
+    
+    }
+    .mentor img {
+        padding-right: 1px;
+    }
+    #tragop{
+        margin-bottom: 10px;
+    }
+    .buttonS{
+        margin: 10px;
+    }
+    .buttonS h3{
+        margin: 10px;
+    }
+    .khuyenmai {
+        font-size: 17px;
+    margin: 8px 6px;
+    padding: 5px;
+    }
+    .title span {
+        font-size: 20px;
+    }
+    .title h1{
+        font-size: 30px;
+    }
+   
+    .phone{
+        padding: 60px 0px 0px 0px;
+        width: 100%;
+    }
+    .content, .description {padding:10px 5px 10px 5px;font-size: 13px;}
+    .dacdiem{font-size: 18px;}
+    .dacdiem h1{
+        margin: 14px;
+        font-size: 27px;
+    }
+    .thongso h1{margin: 10px; font-size: 27px;}
+    .thongso1 {
+        font-size: 16px;
+        padding: 5px;
+    }
+    .dacdiem img {
+        width: 54%;
+    }
+    
+}
+
+@media only all and (max-width:1024px) and (min-width:768px){
+    .WapperPhone{
+        width: 100%;
+    }
+    .content2{
+        width: 30%;
+    }
+    .price{
+        width:35%;
+    }
+    .chinhsach{
+        width:32%;
+    }
+    .price h1{
+        font-size: 22px;
+    }
+    .title{
+        padding-top: 5px;
+    }
+    .price p, h3 {
+        margin: 0px;
+        font-size: 15px;
+    }.mentor{
+        font-size: 15px;
+        padding: 3px;
+    }
+    .mentor img {
+        padding-right: 1px;
+    }
+    #tragop{
+        margin-bottom: 5px;
+    }
+    .buttonS{
+        margin: 5px;
+    }
+    .buttonS h3{
+        margin: 5px;
+    }
+    .khuyenmai {
+        font-size: 15px;
+        margin: 4px 3px;
+        padding: 5px;
+    }
+    .title span {
+        font-size: 16px;
+    }
+    .title h1{
+        font-size: 20px;
+    }
+   
+    .phone{
+        padding: 60px 0px 0px 0px;
+        width: 100%;
+    }
+    .content, .description {padding:10px 5px 10px 5px;font-size: 13px;}
+    .dacdiem{font-size: 15px;}
+    .dacdiem h1{
+        margin: 9px;
+        font-size: 20px;
+    }
+    .thongso h1{margin: 10px; font-size: 22px;}
+    .thongso1 {
+        font-size: 15px;
+        padding: 3px;
+    }
+    .dacdiem img {
+        width: 54%;
+    }
+   
+}
+@media only all and (max-width:768px) and (min-width:675px){
+    .WapperPhone{
+        width: 100%;
+    }
+    .content2{
+        width: 30%;
+    }
+    .price{
+        width:35%;
+    }
+    .chinhsach{
+        width:32%;
+    }
+    .price h1{
+        font-size: 20px;
+    }
+    .title{
+        padding-top: 5px;
+    }
+    .price p, h3 {
+        margin: 0px;
+        font-size: 13px;
+    }.mentor{
+        font-size: 13px;
+        padding: 1px;
+    }
+    .mentor img {
+        padding-right: 1px;
+    }
+    #tragop{
+        margin-bottom: 5px;
+    }
+    .buttonS{
+        margin: 5px;
+    }
+    .buttonS h3{
+        margin: 0px;
+    }
+    .khuyenmai {
+        font-size: 13px;
+        margin: 2px 0px;
+        padding: 5px;
+    }
+    .title span {
+        font-size: 14px;
+    }
+    .title h1{
+        font-size: 18px;
+    }
+    .chinhsach{
+        width:32%;
+    }
+    .phone{
+        padding: 60px 0px 0px 0px;
+        width: 100%;
+    }
+    .content, .description {padding: 5px;font-size: 11px;}
+    .dacdiem{font-size: 13px;}
+    .dacdiem h1{
+        margin: 5px;
+        font-size: 18px;
+    }
+    .thongso h1{margin: 5px; font-size: 20px;}
+    .thongso1 {
+        padding: 1px;
+        font-size: 11px;
+    }
+    .dacdiem img {
+        width: 50%;
+    }
+   
+}
+
+@media only all and (max-width:675px) and (min-width:480px){
+    
+    .WapperPhone{
+        width: 100%
+    }
+    .content2{
+        width: 30%;
+    }
+    .price{
+        width:35%;
+    }
+    .chinhsach{
+        width:32%;
+    }
+    .price h1{
+        font-size: 20px;
+    }
+    .price p, h3 {
+        margin: 0px;
+        font-size: 11px;
+    }.mentor{
+        font-size: 11px;
+        padding: 1px;
+    }
+    
+    .mentor img {
+        padding-right: 1px;
+    }
+    #tragop{
+        margin-bottom: 5px;
+    }
+    .buttonS{
+        margin: 5px;
+    }
+    .buttonS h3{
+        margin: 0px;
+    }
+    .khuyenmai {
+        font-size: 11px;
+        margin: 2px 0px;
+        padding: 5px;
+    }
+    .title span {
+        font-size: 11px;
+    }
+    .title h1{
+        font-size: 14px;
+    }
+    .chinhsach{
+        width:32%;
+    }
+    .phone{
+        padding: 60px 0px 0px 0px;
+        width: 100%;
+    }
+    .content, .description {padding: 5px;font-size: 11px;}
+    .dacdiem{font-size: 11px;}
+    .dacdiem h1{
+        margin: 5px;
+        font-size: 16px;
+    }
+    .thongso h1{margin: 5px; font-size: 18px;}
+    .thongso1 {
+        padding: 1px;
+        font-size: 9px;
+    }
+    
+}
+@media only all and (max-width:480px){
+    .WapperPhone{
+        width: 100%;
+    }
+    .content2{
+        width: 30%;
+    }
+    .price{
+        width:35%;
+    }
+    .price h1{
+        font-size: 20px;
+    }
+    .price p, h3 {
+        margin: 0px;
+        font-size: 9px;
+    }.mentor{
+        font-size: 9px;
+        padding: 1px;
+    }
+    .mentor img {
+        padding-right: 1px;
+    }
+    #tragop{
+        margin-bottom: 5px;
+    }
+    .buttonS{
+        margin: 5px;
+    }
+    .buttonS h3{
+        margin: 0px;
+    }
+    .khuyenmai {
+        font-size: 11px;
+        margin: 2px 0px;
+        padding: 5px;
+    }
+    .title span {
+        font-size: 11px;
+    }
+    .title h1{
+        font-size: 14px;
+    }
+    .chinhsach{
+        width:32%;
+    }
+    .phone{
+        padding: 60px 0px 0px 0px;
+        width: 100%;
+    }
+    .content, .description {padding: 5px;font-size: 9px;}
+    .dacdiem{font-size: 9px;}
+    .dacdiem h1{
+        margin: 5px;
+    }
+    .thongso h1{margin: 5px;}
+    .thongso1 {
+        padding: 1px;
+        font-size: 9px;
+    }
+}

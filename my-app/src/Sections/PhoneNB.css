@@ -1,0 +1,262 @@
+.hotPhone{
+    padding-bottom: 20px;
+}
+.hotPhone h1{
+    background-image: url(../images/dgs.jpg);
+    padding: 15px;
+    color: white;
+}
+.hotPhone h1 span{
+    float: right;
+    color: yellow;
+    font-weight: initial;
+}
+
+.hotPhone h1 span:hover{
+    text-decoration: underline;
+}
+.gridContainer{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    box-sizing: border-box;
+   
+}
+.gridItem{
+    border: 1px solid red;
+    box-sizing: border-box;
+    padding: 15px 0px; background-color: white;
+}
+.gridItem img{
+    height: 250px;
+}
+.xemthemkmhot button{
+    border: 1px solid red;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: bold;
+}
+#none2, #nonecu, #nonecu2, #nonenb, #nonenb2,#xemthemnb,#xemthemkcu{
+    display: none;
+}
+#ColorRating{
+    color: #ffd400;
+}
+.xemthemkmhot {
+    text-align: center;
+    display: none;
+    margin-bottom: 20px;
+}
+.xemthemkmhot button:hover{
+    border: 1px solid teal;
+    background-color:teal;
+    color: white;
+}
+#none{
+    display: none;
+}
+.Item{
+text-align: center;
+color: black;
+}
+.Item img{
+    padding-top: 10px;
+    max-width: 280px;;
+}
+.Item img:hover{
+    padding-bottom: 10px;
+    padding-top: 0px;
+}
+.Item p{
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    word-wrap: break-word;
+}
+#xemall{
+    text-align: center;
+}
+button{
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+    font-size: 16px;
+    font-weight: bold;
+}
+@media only all and (max-width:1280px) and (min-width:1024px){
+    .hotPhone{
+        width: 100%;
+    }
+    #phoneNb{
+        width: 100%;
+    }
+   
+}
+
+@media only all and (max-width:1024px) and (min-width:768px){
+   
+    .img{
+        width:40%;
+    }
+    .header-left input{
+        width: 200px;  
+    }
+    .header-left{
+        padding: 20px 20px 15px 100px;
+    }
+    .hotPhone{
+        padding-bottom: 10px;
+    }
+    .hotPhone h1 {
+        padding: 10px;
+        font-size: 18px;
+    }
+    .gridItem img{
+        height: 183px;
+    }
+    .Item{
+        font-size: 15px;
+    }
+    
+
+}
+@media only all and (max-width:768px) and (min-width:675px){
+    .wapper{
+        width: 100%;
+    }
+    .back{
+        width: 100%;
+    }
+    nav{
+        display: none;
+    }
+ 
+    .hotPhone{
+        padding-bottom: 10px;
+    }
+    .hotPhone h1 {
+        padding: 4px;
+        font-size: 15px;
+    }
+    .gridItem img{
+        height: 170px;
+    }
+    .Item{
+        font-size: 13px;
+    }
+    .gridContainer{
+        grid-template-columns: auto auto auto;
+    }
+    section{
+        margin-top: 55px;
+    }
+    nav{
+        display: none;
+    }
+    .header-left input{
+        width: 150px;  
+    }
+    .header-left{
+        padding: 20px 20px 15px 50px;
+    }
+    
+}
+
+@media only all and (max-width:675px) and (min-width:480px){
+    .hotPhone{
+        padding-bottom: 10px;
+    }
+    section{
+        margin-top: 55px;
+    }
+    .hotPhone h1 {
+        padding: 4px;
+        font-size: 12px;
+    }
+    .gridItem img{
+        height: 150px;
+    }
+    .Item{
+        font-size: 10px;
+    }
+    .gridContainer{
+        grid-template-columns: auto auto auto;
+    }
+    .back{
+        width: 100%;
+    }
+    nav{
+        display: none;
+    }
+    .header-left input{
+        width: 100px;  
+    }
+    .header-left{
+        padding: 20px 20px 15px 0px;
+    }
+}
+@media only all and (max-width:480px) and (min-width:320px){
+    .wapper{
+        width: 100%;
+    }
+    .back{
+        width: 100%;
+    }
+    nav{
+        display: none;
+    }
+ 
+    .hotPhone{
+        padding-bottom: 10px;
+    }
+    .hotPhone h1 {
+        padding: 4px;
+        font-size: 12px;
+    }
+    
+    .gridItem img{
+        height: 115px;
+    }
+    .Item{
+        font-size: 8px;
+    }
+    .gridContainer{
+        grid-template-columns: auto auto auto;
+    }
+    section{
+        margin-top: 55px;
+    }
+    
+}
+@media only all and (max-width:320px){
+    .back{
+        width: 100%;
+    }
+    nav{
+        display: none;
+    }
+ 
+    .hotPhone{
+        padding-bottom: 10px;
+    }
+    .hotPhone h1 {
+        padding: 4px;
+        font-size: 12px;
+    }
+    .gridItem img{
+        height: 85px;
+    }
+    .Item{
+        font-size: 8px;
+    }
+    .gridContainer{
+        grid-template-columns: auto auto auto;
+    }
+    section{
+        margin-top:0px;
+    }
+}

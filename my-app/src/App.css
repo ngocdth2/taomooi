@@ -1,0 +1,589 @@
+body{
+ padding: 0px;
+ margin: 0px;
+}
+.back{
+    margin: 0px auto;
+    width: 100%;
+}
+.wapperheader{
+   z-index: 5;
+position: fixed;
+  top: 0;
+  width: 100%;
+  padding:10px 50px 10px 50px;
+  box-sizing: border-box;
+  background: #DD3543;
+  display: flex;
+ 
+}
+.thongtinhay{
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    background-color: white;
+    color: black;
+    top: 100px;
+    border-radius: 4px;
+    box-shadow: 5px 10px whitesmoke;
+    box-shadow: 1px -1px 2px 0px whitesmoke;
+ width: 50%;
+  display: none;
+
+  animation-direction: alternate;
+  
+   border: 1px solid rgb(230, 227, 227);
+}
+.WapCartLengt{
+   display: flex;
+    margin: 0px 37%;
+}
+
+.numberCartLength{
+   font-size: 12px;
+    padding: 1px 5px;
+    height: 14px;
+    background: aquamarine;
+    color: black;
+    border-radius: 42px;
+}
+.thongtinhay li{
+    width: 100%;
+   box-sizing: border-box;
+    list-style-type: none;
+    padding: 7px 7px;
+    text-align: center; 
+    
+}
+.thongtinhay li:hover{
+    color: blue;
+}
+#tuychonhay:hover .thongtinhay{
+    opacity: 1;
+    top: 60px;
+    display: block;
+}
+.logoHeader{
+    width: 20%;
+    cursor: pointer;
+}
+.logoHeader img{
+    width: 70%;
+}
+.botHeader{
+    display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  transition: align-items .2s;
+}
+.header-left{
+    width: 40%;
+    padding: 20px 20px 15px 150px;
+}
+.botHeader input{
+    width: 40%;
+    padding: 10px 10px;
+    border-radius: 3px;
+    border: 1px solid white;
+    position: absolute;
+    top: 25px;
+
+}
+.wapper{
+    display: flex;
+    box-sizing: border-box;
+    background-color:#e9ebee;
+    margin-top: 72px;
+}
+nav{
+    padding-top: 20px;
+    width: 15%;
+    background-color:#e9d8f4;
+    margin: 0px auto;
+    font-size: 16px;
+    cursor: pointer;
+    box-sizing: border-box; 
+    position: fixed;
+    overflow: auto;
+    padding-bottom: 20px;
+}
+.nav1{
+    padding-bottom: 20px;
+}
+nav ul {
+    margin: 0px; padding: 0px;
+}
+nav ul li{
+    padding: 10px;
+    list-style-type: none;
+}
+nav ul li:hover{
+   background-color: rebeccapurple;
+    color: white;
+}
+.nav2 ul li ul{
+    font:14px;
+}
+section{
+    box-sizing: border-box;
+    padding: 20px 100px 0px 100px;
+    background-color:#e9ebee;
+    width: 100%; 
+    margin-top: 73px;
+    cursor: pointer;
+}
+section .header{
+    box-sizing: border-box;
+    width: 100%; 
+    background-color:#e9ebee;
+    display: flex;
+   height: auto;
+}
+.slide{
+    width: 120%;
+    padding-right: 5px;
+    background-color:#e9ebee;
+    height: 225px;
+}
+.img{
+    height: 225px;
+}
+.img img{
+    height: 111px;
+}
+article{
+    width: 100%;
+}
+.Old{
+    display: none;
+}
+.sign{
+    padding-top: 10px;
+    position: absolute;
+    left: 70%;
+    top: 8px;
+    display: flex;
+}
+.headerSearch p{
+    margin: 0px;
+}
+.IconSearch{
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    left: 60%;
+    
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    position: absolute;
+    top: 25px;
+    
+}
+.thongtinhay::before{
+    left: 55%;
+  content: '';
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom: 100%;
+  border-bottom: 10px solid white;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+.Tuychon{
+    width: 110px;
+    color: white;
+    margin: 0px;
+    text-align: center;
+    cursor: pointer;
+ 
+    
+}
+.Tuychon:hover{
+    color: rgb(11, 60, 133);
+}
+.Tuychon p{
+    margin: 0px;
+}
+.logoicon{
+    font-size: 16px;
+}
+.signin{
+    margin-right: 20px;
+    padding:8px;
+    border: 1px solid #e9d8f4;
+    background-color: #e9d8f4;
+    border-radius: 5px;
+}
+.signin a{
+    text-decoration: none;
+    color: black;
+}
+.Main{
+    background-image: url(./images/banner.jpg);
+    width: 100%;
+    height: 651px;  
+    position: relative; 
+}
+.muahang{
+    position: absolute;
+    padding:10px;
+    border-radius: 7px;
+    margin: 300px 10px 0px 500px;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    top: 0px;
+    background: green;
+    box-shadow: 2px 2px 10px 1px wheat;
+    color: antiquewhite;
+    border: 1px solid green;
+    
+}
+.background{
+    background-color: black;
+    width: 100%;
+    height: 651px;   
+    opacity: 0.6;
+}
+.quanly{
+    position: absolute;
+    padding:10px 20px;
+    border-radius: 7px;
+    margin: 300px 0px 0px 700px;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;top: 0px;
+    background: green;
+    box-shadow: 2px 2px 10px 1px wheat;
+    color: antiquewhite;
+    border: 1px solid green;
+}
+
+@media only all and (max-width:1280px) and (min-width:1024px){
+    section .header {
+        height: 215px;
+    }
+    .back{
+        width: 100%;
+    }
+    section{
+        margin-left: 0px;
+        padding: 10px;
+        margin-top: 60px;
+    }
+    .wapperheader{
+        height: 65px;
+    }
+    .Tuychon{
+        width: 80px;
+        font-size: 14px;
+    }
+    .logoHeader img{
+        height:40px;
+    }
+    .botHeader input{
+        top: 15px;
+        font-size: 11px;
+        width: 200px;
+    }
+    nav{
+        display: none;
+    }
+    .header-left input{
+        width: 150px;  
+    }
+    .header-left{
+        padding: 20px 20px 15px 50px;
+    }
+    .img{
+        width:25%;
+    }
+    .img img{
+        width: 100%;
+        height: 99px;
+    }
+    .sign{
+        left: 62%;
+        padding-top: 5px;
+    }
+    .IconSearch {
+        left: 54%;
+        
+        top: 15px;
+        padding: 3px 8px 4px 9px;
+    }
+    .slide{
+        width: 75%;
+          padding-right: 4px;
+    }
+}
+
+@media only all and (max-width:1024px) and (min-width:768px){
+    section .header {
+        height: 190px;
+    }
+    .back{
+        width: 100%;
+    }
+    section{
+        margin-left: 0px;
+        padding: 10px;
+        margin-top: 60px;
+    }
+    .wapperheader{
+        height: 65px;
+    }
+    .Tuychon{
+        width: 80px;
+        font-size: 14px;
+    }
+    .logoHeader img{
+        height:40px;
+    }
+    .botHeader input{
+        top: 15px;
+        font-size: 11px;
+        width: 200px;
+    }
+    nav{
+        display: none;
+    }
+    .header-left input{
+        width: 150px;  
+    }
+    .header-left{
+        padding: 20px 20px 15px 50px;
+    }
+    .img{
+        width:25%;
+    }
+    .img img{
+        width: 100%;
+        height: 88px;
+    }
+    .sign{
+        left: 62%;
+        padding-top: 5px;
+    }
+    
+    .slide{
+        width: 75%;
+          padding-right: 4px;
+    }
+
+}
+@media only all and (max-width: 1024px) and (min-width: 900px){
+
+    .IconSearch {
+        left: 45%;
+        top: 15px;
+        padding: 3px 8px 4px 9px;
+    }
+    }
+@media only all and (max-width: 900px) and (min-width: 768px){
+
+.IconSearch {
+    left: 48%;
+    top: 15px;
+        padding: 3px 8px 4px 9px;
+}
+}
+@media only all and (max-width:768px) and (min-width:675px){
+ 
+    section .header {
+        height: 165px;
+    }
+    .back{
+        width: 100%;
+    }
+    section{
+        margin-left: 0px;
+        padding: 10px;
+        margin-top: 60px;
+    }
+    .wapperheader{
+        height: 65px;
+    }
+    .Tuychon{
+        width: 80px;
+        font-size: 14px;
+    }
+    .logoHeader img{
+        height:40px;
+    }
+    .botHeader input{
+        top: 15px;
+        font-size: 11px;
+        width: 200px;
+    }
+    nav{
+        display: none;
+    }
+    .header-left input{
+        width: 150px;  
+    }
+    .header-left{
+        padding: 20px 20px 15px 50px;
+    }
+    .img{
+        width:25%;
+    }
+    .img img{
+        width: 100%;
+        height: 78px;
+    }
+    .sign{
+        left: 62%;
+        padding-top: 5px;
+    }
+    .IconSearch {
+        left: 52%;
+        
+        top: 15px;
+        padding: 3px 8px 4px 9px;
+    }
+    .slide{
+        width: 75%;
+          padding-right: 4px;
+    }
+}
+
+@media only all and (max-width:675px) and (min-width:480px){
+    section .header {
+        height: 130px;
+    }
+    section{
+        margin-left: 0px;
+        padding: 10px;
+    }
+    .wapper{
+        width: 100%;
+    }
+    .wapperheader{
+        height: 60px;
+        padding:10px
+    }
+    .Tuychon{
+        width: 65px;
+        font-size: 10px;
+    }
+    .logoHeader img{
+        height:40px;
+    }
+    .slide{
+        width: 85%;
+          height: 130px;
+          padding-right: 2px;
+      }
+    
+    .botHeader input{
+        top:17px;
+        font-size:8px;
+        width: 29%;
+        padding: 8px;
+    }
+    .back{
+        width: 100%;
+    }
+    .img{
+        width:40%;
+    }
+    .img img{
+        width: 100%;
+        height: 63px;
+    }
+    nav{
+        display: none;
+    }
+    .header-left input{
+        width: 100px;  
+    }
+    .header-left{
+        padding: 20px 20px 15px 0px;
+    }
+    .sign{
+        left: 57%;
+        padding-top: 0px;
+    }
+    
+    .IconSearch {
+        left: 49%;
+        font-size: 9px;
+        padding: 1px 2px;
+        top: 17px;
+    }
+}
+@media only all and (max-width:480px){
+    .wapper{
+        width: 100%;
+    }
+    .back{
+        width: 100%
+    }
+    nav{
+        display: none;
+    }
+    section{
+        padding: 63px 2px 2px 2px;
+    margin: 0px;
+        
+    }
+    section .header{
+        height: 122px;
+    }
+    .slide{
+      width: 70%;
+        height: 122px;
+        padding-right: 2px;
+    }
+  
+    section .img{
+        width: 35%; 
+        
+    }
+    
+    .header img{
+        width: 100%;
+        height: 59px;
+    }
+    .sign{
+        left: 55%;
+    }
+    .wapperheader{
+        height: 60px;
+        padding:10px
+    }
+    .Tuychon{
+        width: 65px;
+        font-size: 10px;
+    }
+    .logoHeader img{
+        height:40px;
+    }
+    .botHeader input{
+        top:17px;
+        font-size:8px;
+        width: 29%;
+        padding: 8px;
+    }
+    .IconSearch {
+        left: 49%;
+        font-size: 9px;
+        padding: 1px 2px;
+        top: 17px;
+    }
+}
+@media only all and (max-width: 320px){
+.Tuychon {
+    width: 46px;
+    left: 57%;
+    font-size: 9px;
+}
+#column2-anh img {
+    width: 22px;
+}
+#anhbct img {
+    width: 64px;
+}
+}

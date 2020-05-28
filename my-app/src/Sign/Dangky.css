@@ -1,0 +1,47 @@
+.singup{
+    width: 100%;
+}
+.App{
+    width: 50%;
+    background-color: rgb(85, 64, 105);
+    margin: 0px;padding: 50px;
+    box-sizing: border-box;
+    float: left;
+    height: 650px;
+    color: white;
+}
+.App h2{margin: 0px; padding-bottom: 30px;}
+.App table{
+    height: 350px;
+}
+.Logo img{
+    width: 50%;
+    float: left;
+    height: 650px;
+}
+input{
+    border-radius: 3px;
+    padding: 5px;
+    border: 0px;
+}
+.dangnhap, .quaylai{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgb(163, 142, 182);
+    color: white;
+    border: 1px solid rgb(41, 37, 44);;
+}
+.SelectDangky{
+    padding: 1px;
+    margin-bottom: 0px;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
+#hoten,#sodt,#Email,#ngaysinh,#gioitinh,#username,#password{color: red;}

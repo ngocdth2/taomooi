@@ -1,0 +1,61 @@
+.Molde{
+    width: 500px;
+   border-radius: 3px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 2px 2px 8px 2px #888888;
+    position: absolute;
+    top: 500px;
+    right: 280px;
+    text-align: left;
+    color: black;
+    
+}
+.Molde:hover{
+    color:rgb(138, 138, 238) ;
+}
+.Molde::before{
+    left: 85%;
+  content: '';
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom: 100%;
+  border-bottom: 10px solid white;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+.kind{
+    padding-left: 4%;
+    padding-top:10px;
+    border-bottom: 1px solid gray;
+    width: 43%;
+    float: left;
+   
+}
+.metarial{
+    padding-right: 4%;
+    border-bottom: 1px solid gray;
+    width: 43%;
+    float: left;
+    padding-top:10px;
+}
+.screen-kind{
+    padding-left: 4%;
+    width: 43%;
+    float: left;
+    padding-top:10px;
+}
+.specialfeatures{
+    padding-right: 4%;
+    width: 43%;
+    float: left;
+    padding-top:10px;
+}
+h3{
+    margin: 0px;
+}
+.highlight{
+    padding-top:10px;
+}

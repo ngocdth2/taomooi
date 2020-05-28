@@ -1,0 +1,65 @@
+.WapperBieudo{
+    width: 77%;
+    float: right;
+    background-color: #e9ebee;
+    text-align: center;
+    min-height: 650px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.Bieudođuongi{
+    padding:50px 0px 20px 0px;
+}
+.ttBieudo{
+    float: right;
+}
+.Bieudođuongi h3{
+    
+    margin: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #666666;
+}
+.Kieuchu{
+    float: left;
+    padding: 5px;
+    background: gray;
+    border: 1px solid gray;
+    font-weight: initial;
+    font-size: 14px;
+}
+.KieuchuTT{
+    height: 50px;
+}
+.Timtheongaytao{
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.Timtheongaytao input{
+    margin: 5px 15px;
+}
+.TongtienTK{
+    display: flex;
+}
+.titleTTTK{
+    width: 15%;
+    border: 1PX solid gray;
+    padding: 10px 0px;
+    font-weight: bold;
+}
+.TittleTKT{
+    border: 1px solid gray;
+    width: 15%;
+    padding: 10px 0px;
+}
+.Timtheongaytao button{
+    background-color: gray;
+    padding: 4px 6px;
+    border: 1px solid gray;
+    font-size: 15px;
+    font-weight: initial;
+}
+.TKTTillte{
+    display: flex;
+}

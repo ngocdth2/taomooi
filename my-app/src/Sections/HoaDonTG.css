@@ -1,0 +1,230 @@
+
+.wapperTG{
+    background-color:#e9ebee;
+    padding: 120px 120px 20px 120px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wapperTitleTG{
+    display: flex;
+    background-color: white;margin-top: 20px;
+}
+.TitleTG{
+    display: flex;
+    font-size: 20px;
+}
+.GoiTG{
+    background-color: white;
+    padding: 10px;
+    margin-top: 5px;font-weight: bold;
+}
+.GoiTG p{
+    margin: 6px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.namectytc{
+    width: 50%;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    
+    padding: 10px;
+}
+.thongtinTGcty{
+    background-color: white;
+    padding: 20px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.ChonThangTG{
+    padding-left: 30px;
+    display: flex;
+    cursor: pointer;
+}
+.tencongty{
+    display: flex;
+}
+.thangOneTG{
+    width: 10%;
+    font-size: 18px;
+    padding: 8px;
+    border-radius: 4px;
+border: 1px solid #e9ebee;
+margin-right: 20px;
+text-align: center;
+font-weight: bold;
+
+}
+#tenctTG{
+    border-top-left-radius: 5px;
+}
+#tenctTG2{
+    border-top-right-radius: 5px;
+}
+#datmuaTG{
+    border-bottom-left-radius: 5px;
+}
+#datmuaTG2{
+    border-bottom-right-radius: 5px;
+}
+#soleTG{
+    background-color:#e9ebee;
+}
+.wapper1cty{
+    width: 50%;
+    display: flex;
+    padding: 10px 14%;
+    box-sizing: border-box;
+    border: 1px solid #e9ebee;
+    cursor: pointer;
+}
+.TitleTG p{
+    padding: 0px;
+   margin: 10px;
+    cursor: pointer;
+}
+.TitleTG span{
+    font-weight: bold;
+    color: blue;
+    cursor: pointer;
+}
+.giaspTG{
+    color: red;
+    font-weight: bold;
+}
+.imageLogo{
+    width: 20%;
+    background-color: white;
+    padding:10px ;
+}
+.imageLogo img{
+    width:90%;
+}
+.thongtinsptg{
+    width: 50%;background-color: white;
+    padding:20px 0px ;
+}
+.giaSPtg{
+    width: 30%;background-color: white;
+    padding:55px 0px ;
+    cursor: pointer;
+}
+.thongtinTGcty::before{
+    left: 14%;
+  content: '';
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom: 11%;
+  border-bottom: 15px solid #e9ebee;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+}
+.thongtinTGcty1{
+    background-color: white;
+    padding: 20px;
+    font-size: 18px; display: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.thongtinTGcty1::before{
+    left: 25%;
+  content: '';
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom: 11%;
+  border-bottom: 15px solid #e9ebee;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+}
+.thongtinTGcty2{
+    background-color: white;
+    padding: 20px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: none;
+}
+.thongtinTGcty2::before{
+    left: 36%;
+  content: '';
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom: 11%;
+  border-bottom: 15px solid #e9ebee;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+}
+.thongtinTGcty3{
+    background-color: white;
+    padding: 20px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+  display: none;
+}
+.thongtinTGcty3::before{
+    left: 48%;
+  content: '';
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom: 11%;
+  border-bottom: 15px solid #e9ebee;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+}
+#thang6{
+    border: 1px solid orangered;
+    color: blue;
+}
+#contytcTG{
+    border-top: 3px solid blue;
+    border-right: 1px solid blue;
+}
+
+@media only all and (max-width:1280px) and (min-width:1024px){
+    .wallTG{
+        width: 100%;
+    }
+    .back{
+        width: 100%;
+    }
+    .img{
+        width:50%;
+    }
+    .sign{
+        left: 63%;
+    }
+    .botHeader input {
+        width: 32%;
+    }
+   
+}
+
+@media only all and (max-width:1024px) and (min-width:768px){
+    .wallTG{
+        width: 100%;
+    }
+   
+
+}
+@media only all and (max-width:768px) and (min-width:675px){
+    .wallTG{
+        width: 100%;
+    }
+    
+}
+
+@media only all and (max-width:675px) and (min-width:480px){
+    
+    .wallTG{
+        width: 100%;
+    }
+    
+}
+@media only all and (max-width:480px){
+    .wallTG{
+        width: 100%;
+    }
+    
+}

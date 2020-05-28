@@ -1,0 +1,209 @@
+.Trangchu{
+    width: 77%;
+    float: right;
+   
+    background-color:#e9ebee;
+    text-align: center;
+    height: 650px;
+}
+.WapperTT{
+    display: flex;
+    padding: 30px;
+    font-size: 20px;
+}
+#IconOpen{
+     font-size: 40px;
+}
+.Calll{
+    display: none;
+    float: left;
+}
+.ContentTT{
+    padding-top: 50px;
+min-height: 600px;
+}
+
+.WapperTT p{
+    margin: 10px;
+    text-align: center;
+}
+#iconTT{
+    font-size: 40px;
+}
+.QLSP{
+    background-color: rgb(77, 190, 235);
+    color: white;
+    padding: 15px 25px;
+    border-radius: 5px;
+    margin-right: 20px;
+    cursor: pointer;
+    width: 20%;
+}
+.QLNCC{
+    background-color: rgb(198, 77, 235);
+    color: white;
+    padding: 15px 25px;
+    border-radius: 5px;
+    margin-right: 20px;
+    cursor: pointer;
+    width: 20%;
+}
+.QLKH{
+    background-color: rgb(9, 180, 100);
+    color: white;
+    padding: 15px 25px;
+    border-radius: 5px;
+    margin-right: 20px; cursor: pointer; width: 20%;
+}
+.DT{
+    background-color: rgb(184, 74, 34);
+    color: white;
+    padding: 15px 25px;
+    border-radius: 5px; cursor: pointer; width: 20%;
+    margin-right: 20px;
+}
+.TB{
+    color: white;
+    padding: 15px 25px;
+    border-radius: 5px; width: 20%;
+    cursor: pointer;
+    background-color: rgb(197, 27, 27);
+}
+.dropdown1{
+    float: right;
+    padding: 20px 50px 10px 10px;
+    position: relative;
+}
+#Onclicksignout{
+    position: absolute;
+    background-color: white;
+    padding:20px  10px;
+    top: 70px;
+    padding: 0px;
+    border: 1px solid rgb(185, 185, 185);
+    box-shadow: 2px 2px 8px 2px #888888;
+    left: -88px;
+    box-sizing: border-box;
+    margin: 0px;
+    border-radius: 8px;
+    display: none;
+}
+#Onclicksignout li{
+    list-style-type: none;
+   text-align: left;
+   padding: 10px 20px;
+   color: black;
+    
+}
+
+#Onclicksignout::before{
+    left: 71%;
+  content: '';
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom: 100%;
+  border-bottom: 10px solid white;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+@media only all and (max-width:1280px) and (min-width:1024px){
+    #iconTT {
+        font-size: 27px;
+    }
+    .WapperTT {
+        padding: 15px;
+        font-size: 17px;
+    }
+}
+@media only all and (max-width:1024px) and (min-width:768px){
+    .Trangchu {
+        width: 75%;
+    }
+    .WapperTT {
+        padding: 10px;
+        font-size: 16px;
+    }
+   
+    .QLSP,.QLNC,.QLKH,.QLNCC,.DT{
+        margin-right: 5px;
+        padding: 12px 15px;
+    }
+    .TB{
+        padding: 12px 15px;
+    }
+    .ContentTT h1{
+        font-size: 29px;
+    }
+    
+}
+@media only all and (max-width:768px) and (min-width:675px){
+    .Trangchu{
+        width: 100%;
+    }
+    .Calll{
+        display: block;
+    }
+    .WapperTT {
+        padding: 10px;
+        font-size: 16px;
+    }
+   
+    .QLSP,.QLNC,.QLKH,.QLNCC,.DT{
+        margin-right: 5px;
+        padding: 12px 15px;
+    }
+    .TB{
+        padding: 12px 15px;
+    }
+    .ContentTT h1{
+        font-size: 29px;
+    }
+}
+@media only all and (max-width:675px) and (min-width:480px){
+    .Trangchu{
+        width: 100%;
+    }
+    .Calll{
+        display: block;
+    }
+    .WapperTT {
+        padding: 10px;
+        font-size: 16px;
+    }
+   
+    .QLSP,.QLNC,.QLKH,.QLNCC,.DT{
+        margin-right: 5px;
+        padding: 12px 15px;
+    }
+    .TB{
+        padding: 12px 15px;
+    }
+    .ContentTT h1{
+        font-size: 29px;
+    }
+}
+@media only all and (max-width:480px) and (min-width:320px){
+    .Trangchu{
+        width: 100%;
+    }
+    .Calll{
+        display: block;
+      
+    }
+    .WapperTT {
+        padding: 10px;
+        font-size: 16px;
+    }
+   
+    .QLSP,.QLNC,.QLKH,.QLNCC,.DT{
+        margin-right: 5px;
+        padding: 12px 15px;
+    }
+    .TB{
+        padding: 12px 15px;
+    }
+    .ContentTT h1{
+        font-size: 29px;
+    }
+}
